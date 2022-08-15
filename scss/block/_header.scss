@@ -1,0 +1,22 @@
+.header{
+    &__subject{
+        font-size: 70px;
+        color: white;
+        width: 400px;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        padding: 120px 0;
+    }
+    &__input{
+        font-size: 20px;
+        width: 40%;
+        padding: 10px 0px;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        outline: none;
+        border-bottom: 2px solid white;
+    }
+}
