@@ -4,4 +4,24 @@
         display: flex;
         max-width: 170px;
     }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        margin-right: auto;
+        margin-left: 30px;
+        max-width: 50%;
+    }
+    &__list a{
+        max-width: 100%;
+        font-size: 14px;
+        color: white;
+        // padding: 0 20px;
+    }
+    &__item{
+        display: flex;
+        padding: 0 20px;
+    }
 }
