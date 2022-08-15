@@ -12,11 +12,27 @@
     &__input{
         font-size: 20px;
         width: 40%;
-        padding: 10px 0px;
+        padding: 1px 0px;
         color: white;
         border: none;
-        margin-top: 20px;
+        margin-top: 50px;
         outline: none;
         border-bottom: 2px solid white;
+        display: flex;
+        justify-content: space-around;
+        &  input{
+         width: 80%;
+         border: none;
+         outline: none;
+        font-size: 20px;
+
+         background-color: transparent;
+         color: white;
+        }
+    }
+    &__input img{
+        display: flex;
+        cursor: pointer;
+        max-width: 50px;
     }
 }
