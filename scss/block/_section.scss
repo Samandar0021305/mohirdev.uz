@@ -1,0 +1,29 @@
+.section{
+    padding: 40px 0;
+    &__bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__bg__row{
+        display: block;
+        width: 60px;
+        height: 2px;
+        background-color: rgb(10, 90, 181);
+        margin: 10px 0;
+    }
+    &__bg h2{
+        color: #1f2949;
+        margin: 9px 0;
+    }
+    &__bg p{
+        color:#1f2949;
+    }
+    &__hero{
+        width: 50%;
+        height: 3px;
+        margin: 20px 0;
+        background-color: #7380a8;
+    }
+}
