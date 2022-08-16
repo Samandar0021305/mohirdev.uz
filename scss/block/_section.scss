@@ -11,7 +11,8 @@
         width: 60px;
         height: 2px;
         background-color: rgb(10, 90, 181);
-        margin: 10px 0;
+        margin: 10px auto;
+
     }
     &__bg h2{
         color: #1f2949;
@@ -48,5 +49,25 @@
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+    }
+    &__zoodpay{
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+        cursor: pointer;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        transition: box-shadow 0.8s ease-in-out;
+        &:hover{
+            box-shadow:none;
+        }
+    }
+    &__hero1{
+        width: 60%;
+        height: 3px;
+        margin: 80px auto;
+        background-color: #7380a8;
+        display: flex;
     }
 }
