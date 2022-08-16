@@ -36,7 +36,13 @@
         min-width: 200px;
         margin: 10px 0;
         cursor: pointer;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        transition: box-shadow 0.8s ease-in-out;
+    &:hover{
+        box-shadow:none;
     }
+    }
+
     &__box{
         display: flex;
         justify-content: space-evenly;
