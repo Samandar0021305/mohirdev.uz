@@ -24,8 +24,7 @@
          width: 80%;
          border: none;
          outline: none;
-        font-size: 20px;
-
+         font-size: 20px;
          background-color: transparent;
          color: white;
         }
@@ -34,5 +33,53 @@
         display: flex;
         cursor: pointer;
         max-width: 50px;
+    }
+}
+
+@media (max-width:1160px){
+    .container{
+        width: 90%;
+        background-size: height 100%;
+    }
+}
+
+@media (max-width:1138px){
+    .header{
+        &__subject{
+            font-size: 50px;
+        }
+        &__box{
+            padding-left: 50px;
+        }
+    }
+}
+
+
+@media (max-width:760px){
+    .wrapper{
+        background-size:100%;
+        background-attachment: fixed;
+    }
+    .header{
+        &__subject{
+            font-size: 30px;
+        }
+        &__box{
+            padding-left: 80px;
+        }
+        &__input{
+            width: 66%;
+        }
+    }
+}
+
+@media (max-width:516px){
+    .header{
+        &__box{
+            padding: 140px 0;
+        }
+        &__box h2{
+            width: 90%;
+        }
     }
 }

@@ -4,10 +4,16 @@
         display: flex;
         max-width: 170px;
     }
+    &__toogle__list{
+        display: none;
+    }
     &__box{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    &__pic{
+        display: none;
     }
     &__list{
         margin-right: auto;
@@ -67,7 +73,105 @@
     }
     &__sign a{
         color: white;
-        font-size: 14px;
+        font-size: 14px;   
+    
     }
 
+}
+
+@media (max-width:1254px){
+    .navbar{
+        &__item a{
+            font-size: 12px;
+        }
+        &__sign{
+            padding: 6px 12px;
+            margin-top: 1px;
+        }
+    }
+}
+
+
+@media (max-width:1138px){
+    .navbar{
+        &__item a{
+        font-size: 10px;
+        }
+    }
+}
+
+@media (max-width:1030px) {
+    .navbar{
+        &__sign a{
+           font-size: 10px;
+           margin-top: -14px;
+        }
+        &__list{
+            display: none !important;
+        }
+        &__item{
+            display: none;
+        }
+        &__sign{
+            padding: 9px 22px;
+            border-radius: 5px;
+            display: flex;
+            margin-top: -20px;
+            border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        &__sign a{
+            margin-top: 2px;
+            font-size: 16px;
+        }
+
+    }
+}
+
+@media (max-width:760px){
+  .navbar{
+    &__sign{
+        padding: 6px 12px;
+        margin-top: 1px;
+    }
+  }
+}
+
+@media (max-width:658px){
+    .navbar {
+        &__pic{
+            display: flex;
+            cursor: pointer;
+            width: 50px;
+            height: 30px;
+            fill: white;
+        }
+        &__sign{
+            display: none;
+        }
+        &__box{
+            padding: 15px 25px;
+        }
+        &__toogle__list_row{
+            position: absolute;
+            right: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction: column;
+            width: 100%;
+        }
+        &__toogle__item a{
+        max-width: 100%;
+            color: white;
+            display: flex;
+            font-size: 12px;
+        }
+        &__toogle__item{
+            margin-top: 10px;
+        }
+
+    }
 }
