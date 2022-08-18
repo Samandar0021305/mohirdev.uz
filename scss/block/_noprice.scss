@@ -1,0 +1,71 @@
+.noprice{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__title{
+        margin:  0 auto;
+        // width: 100%;
+        color: rgb(0, 123, 255);
+        text-align: center;
+    }
+    &__list{
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+       align-items: start;
+        flex-wrap: wrap;
+        
+    }
+    &__list li {
+        width: 220px;
+        margin: 10px 10px;
+        border:  1px solid rgb(149, 142, 142);
+    }
+    &__list img{
+        display: flex;
+        max-width: 100%;
+    }
+    &__list h2{
+        margin: 10px 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(31, 41, 73);
+    }
+    &__list p{
+        margin: 10px 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.79;
+        letter-spacing: normal;
+        color: rgb(121, 124, 127);
+    }
+    &__list span{
+        display: flex;
+        width: 100%;
+    }
+    &__list h3{
+        width: 65%;
+        border-top:  1px solid rgb(149, 142, 142);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+    &__list a{
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-left:  1px solid rgb(149, 142, 142);
+        border-top:  1px solid rgb(149, 142, 142);
+    }
+}
+

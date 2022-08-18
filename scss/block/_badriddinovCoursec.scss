@@ -1,0 +1,22 @@
+.badriddinovCoursec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & h2{
+        margin: 20px 0;
+    }
+    &__hero1{
+        width: 60%;
+        height: 3px;
+        background-color: #7380a8;
+        display: flex;
+    }
+    &__title{
+        color: #0665d8;
+        font-size: 24px;
+    }
+    & h2{
+        font-size: 24px;
+    }
+}

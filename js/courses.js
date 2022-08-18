@@ -11,6 +11,8 @@ const praktikumlar = [
 "../praktikumlar/go-1.webp"
 ]
 
+
+
 var fragment = new DocumentFragment()
 var sectionBox = document.querySelector(".section__box");
 praktikumlar.forEach(Element =>{
@@ -22,5 +24,6 @@ praktikumlar.forEach(Element =>{
     divEl.appendChild(imgEl)
     fragment.appendChild(divEl)
 })
-
 sectionBox.appendChild(fragment)
+
+
